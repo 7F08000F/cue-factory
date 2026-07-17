@@ -1,0 +1,52 @@
+# Build
+.gradle/
+build/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Signing / secrets
+*.jks
+*.keystore
+keystore.properties
+*.pem
+*.hprof
+
+# Local ffmpeg source/build cache
+.tooling/
+
+# Agent workflow / planning / local samples (not published)
+AGENTS.md
+docs/
+tasks/
+testdata/
+scripts/
+logs/
+.pi-subagents/
+core/testdata/
+
+# Tests & debug-only sources (not required to build the product APK)
+**/src/test/
+**/src/androidTest/
+**/src/debug/
+
+# Optional local outputs (repo root only)
+/out/
+/output/

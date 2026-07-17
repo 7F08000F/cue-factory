@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cue 工厂</string>
+    <string name="notify_channel">切分任务</string>
+    <string name="notify_idle">Cue 工厂空闲</string>
+    <string name="notify_running">正在切分 %1$d 张专辑</string>
+    <string name="notify_tap">点按打开任务队列</string>
+</resources>
